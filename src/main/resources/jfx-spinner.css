@@ -1,0 +1,38 @@
+.jfx-spinner {
+	-fx-skin: "be.nabu.jfx.control.spinner.SpinnerSkin";
+	-fx-pref-width: 150px;
+	-fx-max-width: 150px;
+	-fx-min-width: 150px;
+}
+
+.jfx-spinner-button {
+	-fx-font-size: 6pt;
+	-fx-background-radius: 0;
+}
+
+.jfx-spinner-button-increase-vertical, .jfx-spinner-button-increase-left, .jfx-spinner-button-increase-right {
+	-fx-background-image: url("jfx-spinner-up.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 5px;
+}
+
+.jfx-spinner-button-decrease-vertical, .jfx-spinner-button-decrease-left, .jfx-spinner-button-decrease-right {
+	-fx-background-image: url("jfx-spinner-down.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 5px;
+}
+.jfx-spinner-button-increase-horizontal {
+	-fx-background-image: url("jfx-spinner-right.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 5px;
+}
+
+.jfx-spinner-button-decrease-horizontal {
+	-fx-background-image: url("jfx-spinner-left.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 5px;
+}
